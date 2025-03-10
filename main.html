@@ -3,10 +3,47 @@
 <html>
 
 <head>
+	<h1>MyBookList</h1>
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
+	
 
 <body>
+	<div class ="container">
+	
+	<div class="form-group"></div>
+	<form>
+		 <label for="title">Title</label><br>
+	<input type="text" id="title">
+	<br>
+		 <label for="author">Author</label><br>
+	<input type="text" id="author">
+	<br>
+		 <label for="isbn">ISBN#</label><br>
+	
+	<input type="text" id="isbn">
+	<br>
+	</form>
+	<button type="button" id="submit">submit</button>
+	</div>
+	 
+	<table class= "table table-striped">
+		<thead>
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+			<th>ISBN#</th>
+			<th>Action</th>
+		</tr>
+	</thead>
+		<tbody id="book-list">
+			
+		</tbody>
+		
+	</table>
+	</div>
+		
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
